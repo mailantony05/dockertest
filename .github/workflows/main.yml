@@ -20,6 +20,6 @@ jobs:
 
       - name: Run shell script with parameters
         run: |
-          ./build.sh "node" "apt" "curl" "docker.io"
+          set -x ./build.sh "node" "apt" "curl" "docker.io"
         # Replace `./path/to/your-script.sh` with the path to your script
         # Pass the required parameters to the script
