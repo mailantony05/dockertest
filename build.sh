@@ -26,8 +26,8 @@ docker build \
   -t my-app .
 
 # Tag and push the Docker image to the specified registry
-docker tag my-app $REGISTRY/my-app
-docker push $REGISTRY/my-app
+docker tag my-app mailantony05/nginxtest
+docker push mailantony05/nginxtest
 
 # Output the built image name and registry URL
-echo "Built and pushed Docker image: $REGISTRY/my-app"
+echo "Built and pushed Docker image: mailantony05/nginxtest"
